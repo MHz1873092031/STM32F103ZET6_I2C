@@ -44,9 +44,9 @@ void SHTC3_Init(void);
 void SHTC3_WRITE_CMD(uint16_t cmd);
 void SHTC3_READ_ID(uint16_t cmd);
 void SHTC3_WAKE_UP(void);
+void SHTC3_INTO_SLEEP(void);
+void SHTC3_MEASUREMENT_TEMP_HUM(void);
 uint8_t SHTC3_CRC_CHECK(uint16_t DAT,uint8_t CRC_DAT);
-
-
 
 void SHTC3_TEST1(void);
 void SHTC3_TEST2(void);

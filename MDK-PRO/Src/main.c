@@ -81,9 +81,11 @@ int main(void)
     /* Configure the system clock to 64 MHz */
     SystemClock_Config();
     USART_Init(); 
-    //SHTC3_TEST1();
+	AT24CXX_TEST1();	
 	
-	AT24CXX_TEST1();
+    SHTC3_TEST1();
+	
+
     /* Add your application code here
      */
  

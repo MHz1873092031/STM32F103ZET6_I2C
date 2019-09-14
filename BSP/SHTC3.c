@@ -21,7 +21,7 @@ void SHTC3_Init(void)
 {   
     I2C_Init();
 
-    SHTC3_WAKE_UP();//上电先唤醒一下，否者有可能造成发送命令SHTC3没有响应，这有可能是因为上一次断电的时候SHTC3处于休眠的状态造成的    
+    SHTC3_WAKE_UP();//为了防止仿真的时候SHTC3再SLEEP状态下复位运行时造成SHTC3无法响应主机发送的命令，由于在仿真的时候SHTC3芯片没有断电，还是处于休眠状态，SHTC3在休眠是无法响应除了唤醒命令的其它操作的
     
     SHTC3_WRITE_CMD(SHTC3_SOFT_RESET_CMD);//发送软件复位命令
     HAL_Delay(10);//延时等待复位稳定
@@ -301,7 +301,7 @@ void SHTC3_TEST2(void)
         //SHTC3_ERR = I2C_WRITE_BYTE(SHTC3_READ_CMD);//在休眠的时候也没有收到响应
         //I2C_STOP(); 
         
-        //如果IC处于休眠的状态，SHTC只能识别写地址和WAKE UP命令，其他命令是不会反馈响应的
+        //如果IC处于休眠的状态，SHTC只能识别写地址和WAKE UP命令，其他命令是不会反馈应答信号的
              
         HAL_Delay(500);
     }       

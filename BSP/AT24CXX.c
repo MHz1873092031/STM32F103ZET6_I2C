@@ -265,11 +265,7 @@ void AT24CXX_TEST1(void)
 	AT24CXX_WRITE_BUFF(10,AT24C02_BUFF,100);//在地址0x0A开始连续写入100个数据
 	
 	AT24CXX_PRINTF();
-	
-    while(1)
-    {
-        HAL_Delay(1000);
-    }   
+	  
 }
 
 
