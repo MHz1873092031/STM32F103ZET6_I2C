@@ -683,7 +683,7 @@ I (..\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5D6DA1E5)
 I (..\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5D6DA1E5)
 I (..\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h)(0x5D6DA1E5)
 I (..\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_wwdg.h)(0x5D6DA1E5)
-F (..\BSP\SHTC3.c)(0x5D7C8647)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Inc -I ..\CORTEX -I ..\STM32F1xx_HAL_Driver\Inc -I ..\BSP-IE:\²©¿ÍÔ°\STM32F103ZET6\STM32F103ZET6_I2C\MDK-PRO\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\output\shtc3.o --omf_browse ..\output\shtc3.crf --depend ..\output\shtc3.d)
+F (..\BSP\SHTC3.c)(0x5D7CA916)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Inc -I ..\CORTEX -I ..\STM32F1xx_HAL_Driver\Inc -I ..\BSP-IE:\²©¿ÍÔ°\STM32F103ZET6\STM32F103ZET6_I2C\MDK-PRO\RTE-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE-o ..\output\shtc3.o --omf_browse ..\output\shtc3.crf --depend ..\output\shtc3.d)
 I (..\BSP\SHTC3.h)(0x5D7C848A)
 I (..\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5D6DA1E5)
 I (.\Inc\stm32f1xx_hal_conf.h)(0x5D6DA1E4)

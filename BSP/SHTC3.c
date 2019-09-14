@@ -28,7 +28,7 @@ void SHTC3_Init(void)
 
     SHTC3_READ_ID(SHTC3_READ_ID_CMD);
 	
-	printf("SHTC3的ID值为：0x%04x\r\n",SHTC3_ID); 
+	printf("\r\nSHTC3的ID值为：0x%04x\r\n",SHTC3_ID); 
 }
 
 /*******************************************************************************
@@ -77,7 +77,7 @@ void SHTC3_READ_ID(uint16_t cmd)
             SHTC3_ID |= I2C_READ_BYTE(0);
             I2C_STOP();     
             
-            SHTC3_ID &= 0x0807;       
+            SHTC3_ID &= 0x083F;       
         }
     }
 }
